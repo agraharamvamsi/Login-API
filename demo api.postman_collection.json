@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "6dc74d3d-f845-4bc6-99a0-2306cb2f7ea1",
+		"name": "demo api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28891931"
+	},
+	"item": [
+		{
+			"name": "https://demo.onefin.in/api/v1/usermodule/login/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "\"'application/json'\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"testuser\",\r\n  \"password\": \"v^4!C%CQ94f0\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo.onefin.in/api/v1/usermodule/login/",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"onefin",
+						"in"
+					],
+					"path": [
+						"api",
+						"v1",
+						"usermodule",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
